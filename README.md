@@ -3,6 +3,10 @@
 ## Problem
 Criterion Channel ran a controlled advertising experiment to evaluate whether ad exposure increased subscriptions and to determine which channels generated positive business value. The core business question is whether paid impressions drove incremental conversions and ROI, and how results should inform channel allocation decisions.
 
+Each impression delivered through one of five channels (Facebook, Twitter, Instagram, YouTube, Letterboxd) was randomly assigned to users in a 70/30 control/treatment split. Each impression costs 3 Cents regardless of treatment assignment, as PSA ads still need to be paid for. 
+
+A subscription conversion is estimated to bring CLV of $1300.
+
 ## Key Findings
 - The experiment includes 1,200,093 users and 3,924,541 total impressions.
 - Treatment materially outperformed control on conversion rate: 1.3409% (95% CI: 1.3163%-1.3655%) vs 0.2992% (95% CI: 0.2813%-0.3170%).
@@ -46,7 +50,9 @@ The campaign likely created meaningful incremental conversions, but experimental
 
 Key limitation: imperfect randomization and sparse data in some high-exposure bins can bias point estimates.
 
-## Interesting Next Steps and Insights for Future
+## Interesting Next Steps, Insights and Question for Future
+- What happens if cost of each impression changes? What if they vary between channels? 3 cents seems like an average but its unlikely they cost the same across channel or even within channel.
+- What happens if CLV changes? $1300 is a clean assumption but in reality CLV is likely to vary by channel and user segment. More granular CLV estimates could refine ROI calculations and channel prioritization.
 - Conduct a follow-up experiment with improved randomization and balanced exposure to validate findings.
 - More data on customer attributes to test true randomization and identify potential confounders, e.g by geography, device, gender, age, or prior engagement.
 - If the marketing team wonders why instagram was not effective and underpowered, a follow-up experiment with more volume and perhaps multiple creative variations could help determine if the channel has potential with better execution or if it is simply not a good fit for the audience.
